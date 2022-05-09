@@ -35,9 +35,6 @@
     "prepare": "husky install",
     "start": "concurrently npm:build:lib:watch npm:yalc:watch"
   },
-  "engines": {
-    "npm": ">=6.x.x"
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "npm run lint"
   },
